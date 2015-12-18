@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: Nitin - Tech Blog
 locale: en_US
 description: Describe your website here.
-logo: site-logo.png
+logo: logo.jpg
 search: true
 url: http://dbunix.in/newblog
 
