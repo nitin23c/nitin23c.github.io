@@ -84,3 +84,6 @@ DEPENDENCIES
   jekyll-sitemap
   octopress (~> 3.0)
   rouge
+
+BUNDLED WITH
+   1.11.2
