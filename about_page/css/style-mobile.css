@@ -1,0 +1,192 @@
+* {
+    text-shadow : none !important;
+    }
+
+body, input, textarea, select {
+    line-height    : 1.5em;
+    font-size      : 12pt;
+    letter-spacing : 0;
+    }
+
+h2, h3, h4, h5, h6 {
+    font-size : 1em;
+    }
+
+h2 {
+    font-size      : 1.25em;
+    letter-spacing : 4px;
+    }
+
+/* List */
+
+ul.default li {
+    padding-left : 0.5em;
+    }
+
+ul.icons a {
+    width       : 2em;
+    height      : 2em;
+    line-height : 2em;
+    }
+
+ul.menu li {
+    display : block;
+    padding : 0;
+    border  : 0;
+    margin  : 1em 0 0 0;
+    }
+
+ul.menu li:first-child {
+    margin-top : 0;
+    }
+
+ul.actions li {
+    display : block;
+    margin  : 1em 0 0 0;
+    }
+
+ul.actions li:first-child {
+    margin-top : 0;
+    }
+
+ol.default li {
+    padding-left : 0.25em;
+    }
+
+img {
+    max-width : 100%;
+    height    : auto
+    }
+
+/* Button */
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+    /*width     : 100%;*/
+    max-width     : 320px;
+    border-radius : 2.5em;
+
+    }
+
+footer {
+    bottom  : 0.5em;
+    padding : 0 0 0 0;
+    }
+
+footer a {
+    margin : 0 5px 0 5px;
+    }
+
+/* Header              ---------------------------- >  */
+
+#header {
+    padding : 3em 0 1em 0;
+    }
+
+#header header h1 {
+    font-size      : 1.65em;
+    letter-spacing : 5px;
+    }
+
+/* my quotes              ---------------------------- >  */
+
+#myQuotes {
+    padding : 0.5em 0 5em 0;
+    /*background-size : auto 150%;*/
+    }
+
+#myQuotes header {
+    /*background-color : #DEDEDE;*/
+    padding : 0 0 1em 0;
+    margin  : 0 0 8em 0;
+    }
+
+#anewquote {
+    /*background-color : #000000;*/
+    margin      : 0 0.5em 0 0.5em;
+    padding-top : 0;
+    }
+
+#sectiontopic a {
+    padding-right : 15px;
+    padding-left  : 15px;
+    margin-left   : 0;
+    margin-right  : 0;
+    }
+
+#myQuotes header h5 {
+    font-size      : 0.7em;
+    letter-spacing : 3px;
+    line-height    : 1.3em;
+    }
+
+#myQuotes header p {
+    font-size      : 0.9em;
+    letter-spacing : 3px;
+    line-height    : 1.5em;
+    }
+
+/* my humor              ---------------------------- >  */
+#myHumor {
+    padding : 1em 0 1em 0;
+    }
+
+#myHumor header {
+    padding-bottom : 4em;
+    }
+
+#myHumor header h1 p {
+    font-size      : 1em;
+    letter-spacing : 3px;
+    }
+
+#topichumor i {
+    padding-right : 10px;
+    padding-left  : 10px;
+    margin-left   : 0;
+    margin-right  : 0;
+    }
+
+/* my quotes              ---------------------------- >  */
+
+#photography iframe {
+    max-width : 100%;
+    height    : auto
+    }
+
+/* my portfolio  ------------------------------------------ */
+
+.portfolioImgSizeA {
+    max-width : 100%;
+    height    : auto;
+    }
+
+.portfolioImgSizeB {
+    max-width : 100%;
+    height    : auto;
+    }
+
+/* Footer              ---------------------------- >  */
+
+#footer ul.menu li {
+    /*line-height : 1em;*/
+    border  : none;
+    /*border-left : solid 1px #DAD9D9;*/
+    padding : 0 0 0 0;
+    margin  : 0 0 0 0;
+    }
+
+#footer footer a {
+    font-size     : 0.7em;
+    padding-right : 0;
+    padding-left  : 0;
+    }
+
+#footer .icons a {
+    width       : 2em;
+    height      : 2em;
+    line-height : 2em;
+    }
+

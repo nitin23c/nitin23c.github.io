@@ -1,0 +1,336 @@
+/**
+ * Created by GuoJunjun on 27.12.14. JunjunGuo.com
+ */
+#resume {
+    overflow-y       : scroll;
+    overflow-x       : hidden;
+    font-family      : 'Open Sans', sans-serif, Arial;
+    font-size        : 16px;
+    color            : #6D6D6D;
+    background-color : #F5F5F5;
+    font-weight      : 300;
+    }
+
+#resume a {
+    text-decoration : none;
+    outline         : none;
+    color           : #C0C0C0;
+    font-weight     : 500;
+    }
+
+#resume a:hover {
+    text-decoration : none;
+    color           : #606060;
+    }
+
+#resume h1, h2, h3, {
+    font-family    : 'Montserrat', sans-serif, Arial;
+    padding-bottom : 5px;
+    color          : #373432;
+    line-height    : 1em;
+    font-weight    : normal;
+    }
+
+#resume h1 a, h2 a, h3 a {
+    color : #111;
+    }
+
+#resume p {
+    padding-bottom : 10px;
+    line-height    : 25px;
+    }
+
+#resume .small {
+    font-size   : 12px;
+    line-height : 14px;
+    padding     : 5px 9px 7px 9px;
+    line-height : 12px;
+    }
+
+/*#resume .row [class^="col-"]:last-child .work_process:before {*/
+/*display : none;*/
+/*}*/
+
+/*Section Title
+----------------------------------------*/
+
+#resume .resumeTitle {
+    margin     : 50px auto 0px 50px;
+    text-align : center;
+    }
+
+#resume .profile {
+    margin : 50px 0 50px 0;
+    }
+
+#resume .profile img {
+    height : 220px;
+    width  : 220px;
+    }
+
+#resume .profileRighttd {
+    width      : 70%;
+    text-align : center;
+    }
+
+#resume .profileTable {
+    float       : right;
+    line-height : 30px;
+    }
+
+#resume .tdvariable {
+    text-align     : right;
+    font-weight    : 700;
+    color          : #999999;
+    text-transform : uppercase;
+    }
+
+#resume .tdvalue {
+    text-align  : left;
+    font-weight : 300;
+    color       : #565656;
+    }
+
+/* Chapter
+-------------------------------------------------- */
+#resume .chapter {
+    background        : url('images/line.svg') repeat-y scroll 109px 0 transparent;
+    background-repeat : repeat-y;
+    margin            : 80px 0 80px 50px;
+    }
+
+#resume .item {
+    margin-bottom : 10px;
+    overflow      : hidden;
+    position      : relative;
+    }
+
+#resume .chapterHead {
+    background    : none repeat scroll 0 0 #2f3238;
+    border-radius : 136px 136px 136px 136px;
+    color         : #FFFFFF;
+    cursor        : pointer;
+    float         : left;
+    font-size     : 28px;
+    height        : 46px;
+    line-height   : 46px;
+    margin-top    : 20px;
+    text-align    : center;
+    width         : 46px;
+    margin-left   : 85px;
+    }
+
+#resume .headContent {
+    background-color : #F5F5F5;
+    border-radius    : 5px 5px 5px 5px;
+    float            : left;
+    margin-left      : 15px;
+    padding          : 10px 30px;
+    position         : relative;
+    width            : 70%;
+    }
+
+#resume .itemDate {
+    float      : left;
+    margin-top : 31px;
+    width      : 85px;
+    font-size  : 14px;
+    }
+
+#resume .itemTrigger {
+    background    : none repeat scroll 0 0 #999999;
+    border-radius : 136px 136px 136px 136px;
+    color         : #FFFFFF;
+    cursor        : pointer;
+    float         : left;
+    font-size     : 28px;
+    height        : 46px;
+    line-height   : 46px;
+    margin-top    : 20px;
+    text-align    : center;
+    width         : 46px;
+    }
+
+#resume .itemContent {
+    background-color : #F5F5F5;
+    border           : 1px solid #CCCCCC;
+    border-radius    : 5px 5px 5px 5px;
+    float            : left;
+    margin-left      : 15px;
+    padding          : 10px 30px;
+    position         : relative;
+    width            : 70%;
+    }
+
+#resume .itemContent h3 {
+    cursor      : pointer;
+    font-weight : normal;
+    line-height : 30px;
+    color       : #363636;
+    }
+
+#resume .itemArrow {
+    display  : block;
+    position : relative;
+    }
+
+#resume .itemArrow i {
+    background        : none repeat scroll 0 0 #F5F5F5;
+    border-left       : 1px solid #CCCCCC;
+    border-top        : 1px solid #CCCCCC;
+    display           : block;
+    height            : 10px;
+    left              : 141px;
+    position          : absolute;
+    top               : 37px;
+    transform         : rotate(-45deg);
+    -webkit-transform : rotate(-45deg);
+    -moz-transform    : rotate(-45deg);
+    -ms-transform     : rotate(-45deg);
+    -o-transform      : rotate(-45deg);
+    width             : 10px;
+    z-index           : 10;
+    }
+
+#resume .item h4 {
+    margin-bottom : 10px;
+    }
+
+/* section headline
+-------------------------------------------------- */
+
+#resume .sectionheadline {
+    padding        : 0;
+    vertical-align : baseline;
+    position       : relative;
+    display        : inline-block;
+    border         : 1px solid #252525;
+    margin         : 0 auto 15px auto;
+    color          : #252525;
+    font           : 12px 'PT Sans', sans-serif;
+    text-align     : center;
+    }
+
+#resume .sectionheadline h1 {
+    line-height    : 53px;
+    font-weight    : normal;
+    font-family    : "Oswald", sans-serif;
+    font-size      : 36px;
+    padding        : 0 20px 10px 20px;
+    text-transform : uppercase;
+    margin-bottom  : 0;
+    border         : 0 none;
+
+    }
+
+#resume .sectionheadline p {
+    padding        : 0 10px;
+    position       : absolute;
+    top            : -10px;
+    right          : 0;
+    left           : 0;
+    letter-spacing : 1px;
+    text-transform : uppercase;
+    border         : 0 none;
+    }
+
+#resume .sectionheadline p span {
+    padding          : 0 10px;
+    background-color : #F5F5F5;
+    }
+
+/* table
+-------------------------------------------------- */
+
+#resume .itemdescription {
+    font           : 12px 'PT Sans', sans-serif;
+    color          : #999999;
+    text-transform : uppercase;
+    }
+
+#resume table td {
+    padding-right : 25px;
+    }
+
+/* Skills
+------------------------------------------------ */
+#resume .skills {
+    margin : 80px auto 200px auto;
+    /*background-color: #000;*/
+    }
+
+#resume .skillTitle {
+    text-align : center;
+    }
+
+#resume .languagesTable {
+    margin      : 50px auto 50px auto;
+    line-height : 30px;
+    }
+
+/* footer
+-------------------------------------------- */
+#footer {
+    margin   : 20px auto 80px 10%;
+    overflow : hidden;
+    position : relative;
+    }
+
+#footer p {
+    font-family : PT Sans Narrow, sans-serif;
+    font-size   : 18px;
+    font-weight : 600;
+    }
+
+#footer .social-media {
+    margin-left : 85px;
+    float       : left;
+    }
+
+#footer .ison {
+    background    : none repeat scroll 0 0 #909090;
+    border-radius : 136px 136px 136px 136px;
+    color         : #fff;
+    cursor        : pointer;
+    font-size     : 38px;
+    height        : 55px;
+    line-height   : 55px;
+    text-align    : center;
+    width         : 55px;
+    }
+
+#footer .isoff {
+    background    : none repeat scroll 0 0 #dedede;
+    border-radius : 136px 136px 136px 136px;
+    color         : #909090;
+    cursor        : pointer;
+    font-size     : 38px;
+    height        : 55px;
+    line-height   : 55px;
+    text-align    : center;
+    width         : 55px;
+    }
+
+#footer .social-media a {
+    text-decoration : none;
+    margin          : 0 20px 0 20px;
+    }
+
+#footer .footerContent {
+    width : 75%;
+    }
+
+#footer .copyright {
+    float      : right;
+    margin-top : 20px;
+    position   : relative;
+    }
+
+#footer .copyright a {
+    text-decoration : none;
+    color           : #909090;
+    }
+
+#footer .copyright a:hover {
+    color : #505050;
+    }
