@@ -6,6 +6,7 @@ description: Oracle tech blog and personal ramblings
 logo: logo.jpg
 search: true
 url: http://dbunix.in
+#url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
