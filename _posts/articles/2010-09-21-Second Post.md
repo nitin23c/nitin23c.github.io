@@ -142,14 +142,14 @@ If this doesn't output the new database sid go back and investigate.
 5). Create the a password file
 Use the following command to create a password file (add an appropriate password
 to the end of it):  
-{% highlight shell %}
+{% highlight sh %}
 orapwd file=${ORACLE_HOME}/dbs/orapw${ORACLE_SID} password=<your password>
 {% endhighlight %}
 
 6). Create the new control file(s)
 Ok, now for the exciting bit! It is time to create the new controlfiles and open
 the database:
-{% highlight shell %}
+{% highlight sh %}
     sqlplus "/ as sysdba"
     @/home/oracle/cr_<new database sid>
 {% endhighlight %}
@@ -211,7 +211,7 @@ From sqlplus:
     exit
 {% endhighlight %}
 From unix:
-{% highlight shell %}
+{% highlight sh %}
     nid target=/
 {% endhighlight %}
 NID will ask if you want to change the ID. Respond with 'Y'. Once it has

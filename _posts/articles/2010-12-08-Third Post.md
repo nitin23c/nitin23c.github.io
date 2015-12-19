@@ -42,7 +42,7 @@ Below snapshot shows it.
     Commit complete.
 {% endhighlight %}
 Now , I would delete the datafile which belongs to test tablespace.  
-{% highlight shell %}
+{% highlight sh %}
     [ora10g@mumvshsrv01 oratest]$ rm -rf test01.dbf
 {% endhighlight %}
 After deleting the datafile, I would try to access that table, and it would throw the error as below snapshot shows.  
