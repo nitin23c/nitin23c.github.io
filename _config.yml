@@ -5,7 +5,7 @@ locale: en_US
 description: Oracle tech blog and personal ramblings
 logo: logo.jpg
 search: true
-url: http://127.0.0.1:4000/
+url: http://dbunix.in/newblog
 
 # Jekyll configuration
 
