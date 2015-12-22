@@ -15,7 +15,7 @@ share: false
 ## Login to EC2 instance
 
 Use the private key to login to the instance , You can either use pageant to export the private key or you could expport the key from within the putty  
-![Putty Key export](/attachments/putty.png)
+![](/attachments/putty.png?raw=true)
 browse and select the key.
 
 Once the key has been exported logon to the server and switch to root.
